@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{ 
+   int num1, num2;
+   float numa1, numa2;
+   int sum1, sum2;
+   float temp1, temp2;
+   scanf("%d %d",&num1, &num2);
+   scanf("%f %f",&numa1, &numa2);
+   sum1 = num1 + num2;
+   sum2 = num1 - num2;
+   printf("%d %d", sum1, sum2);
+   temp1 = numa1 + numa2;
+   temp2 = numa1 - numa2;
+   printf("\n%.1f %.1f",temp1 ,temp2);
+   return 0;
+}
